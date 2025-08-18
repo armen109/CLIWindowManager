@@ -3,3 +3,6 @@ window_cli: main.cpp CLIWindowManager.h
 
 clean:
 	rm -f window_cli
+
+run: window_cli
+	./window_cli
